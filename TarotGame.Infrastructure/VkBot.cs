@@ -11,7 +11,7 @@ namespace TarotGame.Infrastructure;
 public class VkBot : IVkBot, IRequestHandler<MessageSend>
 {
     private readonly IMediator _mediator;
-    private const string Token = "6150782131:AAF4uLGS6JX6lyqumrgJJFiVHqA1tXa8tT0";
+    private const string Token = "";
     private static TelegramBotClient _bot;
     private User _me;
 

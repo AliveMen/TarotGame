@@ -14,7 +14,7 @@ public class OpenAiPredictor : IPredictor
     private const string ChatSetting =
         "Ты таролог который говорит с клиентом. Трактуй карты и давай ответы на вопросы.";
 
-    private const string ApiKey = "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";
+    private const string ApiKey = "";
 
     public OpenAiPredictor()
     {
